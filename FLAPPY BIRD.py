@@ -107,7 +107,7 @@ def mainGame():
         playery = playery + min(playerVelY, GROUNDY - playery - playerHeight)
 
         for upperPipe , lowerPipe in zip(upperPipes, lowerPipes):
-            upperPipe['x'] += pipeVelX
+            middlePiple['x'] += pipeVelX
             lowerPipe['x'] += pipeVelX
 
         if 0<upperPipes[0]['x']<5:
